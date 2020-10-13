@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  photocomponent:
+    build: .
+    image: 'ericcwise/fec:1.0'
+    depends_on:
+      - 'database'
+    ports: 
+      - '3000:3000'
+      
+  database:
+    image: mongo:4.4.0

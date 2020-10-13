@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component A suite example using Snapshot renders App component correctly 1`] = `
+<div>
+  <div
+    className="sc-jSFkmK eqpWwz"
+  >
+    <h1
+      className="sc-gKAblj jxIfqZ"
+    >
+      Luxury lodge with incredible views of Lake Washington
+    </h1>
+    <span>
+      <img
+        alt="rating star image"
+        className="sc-iCoHVE jqvFOh"
+        src="https://ghrsea12-fec.s3-us-west-2.amazonaws.com/sample/star.png"
+      />
+    </span>
+    <span
+      className="sc-fujyUd hwPare"
+    >
+      4.87
+    </span>
+    <br />
+    <img
+      alt=""
+      className="sc-bdnylx ciqYQd"
+      onClick={[Function]}
+    />
+    <img
+      alt=""
+      className="sc-gtssRu LSNQf"
+      onClick={[Function]}
+    />
+    <img
+      alt=""
+      className="sc-dlnjPT iTvpQA"
+      onClick={[Function]}
+    />
+    <img
+      alt=""
+      className="sc-hKFyIo iiBuWN"
+      onClick={[Function]}
+    />
+    <img
+      alt=""
+      className="sc-eCApGN kpuqqu"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
