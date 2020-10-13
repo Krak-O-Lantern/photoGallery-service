@@ -11,11 +11,11 @@ const imageData = {
 
 describe('Photos component', () => {
   const wrapper = shallow(<App />);
-  it('should render Photos component', () => {
+  xit('should render Photos component', () => {
     const photos = wrapper.find(Photos);
     expect(photos.exists()).toBe(true);
   });
-  it('should render Photos component', () => {
+  xit('should render Photos component', () => {
     const photoWrapper = shallow(<Photos imageData={imageData} />);
     expect(photoWrapper.exists()).toBe(true);
 

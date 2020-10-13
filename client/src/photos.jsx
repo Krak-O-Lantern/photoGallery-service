@@ -85,7 +85,7 @@ const StyledHeader = styled.h1`
   font-weight: lighter;
 `;
 
-const StyledImg = styled.img`  
+const StyledImg = styled.img`
 width: 15px;
 height: 15px;
 padding-right: .4em;
@@ -120,7 +120,7 @@ function Photos({
 }
 
 Photos.propTypes = {
-  imageData: PropTypes.isRequired,
+  imageData: PropTypes.shape().isRequired,
   viewable: PropTypes.bool.isRequired,
   setViewable: PropTypes.func.isRequired,
   setCurrent: PropTypes.func.isRequired,

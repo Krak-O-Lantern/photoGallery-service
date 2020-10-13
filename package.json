@@ -9,11 +9,11 @@
   },
   "scripts": {
     "start": "node database/seed.js && node server/index.js",
-    "dev:react": "webpack -p",
+    "build": "webpack -p",
     "db:setup": "node database/seed.js",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage --colors"
+    "test": "jest --coverage --colors"
   },
   "dependencies": {
     "@types/jest": "^26.0.14",

@@ -1,5 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`A suite of tests for Modal Component it does not renders Modal Component 1`] = `null`;
+
+exports[`A suite of tests for Modal Component renders correctly Modal Component 1`] = `
+<div
+  className="sc-pNWxx dMoJxG"
+>
+  <button
+    className="sc-crzoUp eUcKcq"
+    onClick={[Function]}
+  >
+    X Close 
+  </button>
+  <button
+    className="sc-kEqYlL bJZxxd"
+    onClick={[Function]}
+  />
+  <button
+    className="sc-iqAbSa hISCpU"
+    onClick={[Function]}
+  />
+  <button
+    className="sc-dIsAE jvmsCV"
+  >
+    11
+     / 
+    19
+  </button>
+  <img
+    alt=""
+    className="sc-jrsJCI eVlRRh"
+    src="https://fec-pictures.s3-us-west-2.amazonaws.com/image11.jpg"
+  />
+  <div
+    className="sc-bqGHjH GJZNv"
+  >
+    "The Greekest Was Here"
+  </div>
+</div>
+`;
+
+exports[`A suite of tests for Photos Component it does not renders Photo Component 1`] = `
+<div
+  className="sc-jSFkmK eqpWwz"
+>
+  <h1
+    className="sc-gKAblj jxIfqZ"
+  >
+    Luxury lodge with incredible views of Lake Washington
+  </h1>
+  <span>
+    <img
+      alt="rating star image"
+      className="sc-iCoHVE eHDiGx"
+      src="https://ghrsea12-fec.s3-us-west-2.amazonaws.com/sample/star.png"
+    />
+  </span>
+  <span
+    className="sc-fujyUd hwPare"
+  >
+    4.87
+  </span>
+  <br />
+  <img
+    alt=""
+    className="sc-bdnylx ciqYQd"
+    onClick={[Function]}
+    src="https://fec-pictures.s3-us-west-2.amazonaws.com/image1.jpg"
+  />
+  <img
+    alt=""
+    className="sc-gtssRu LSNQf"
+    onClick={[Function]}
+    src="https://fec-pictures.s3-us-west-2.amazonaws.com/image2.jpg"
+  />
+  <img
+    alt=""
+    className="sc-dlnjPT iTvpQA"
+    onClick={[Function]}
+    src="https://fec-pictures.s3-us-west-2.amazonaws.com/image3.jpg"
+  />
+  <img
+    alt=""
+    className="sc-hKFyIo iiBuWN"
+    onClick={[Function]}
+    src="https://fec-pictures.s3-us-west-2.amazonaws.com/image4.jpg"
+  />
+  <img
+    alt=""
+    className="sc-eCApGN kpuqqu"
+    onClick={[Function]}
+    src="https://fec-pictures.s3-us-west-2.amazonaws.com/image5.jpg"
+  />
+</div>
+`;
+
+exports[`A suite of tests for Photos Component renders correctly Photos Component 1`] = `null`;
+
 exports[`App component A suite example using Snapshot renders App component correctly 1`] = `
 <div>
   <div
@@ -13,7 +110,7 @@ exports[`App component A suite example using Snapshot renders App component corr
     <span>
       <img
         alt="rating star image"
-        className="sc-iCoHVE jqvFOh"
+        className="sc-iCoHVE eHDiGx"
         src="https://ghrsea12-fec.s3-us-west-2.amazonaws.com/sample/star.png"
       />
     </span>

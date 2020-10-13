@@ -57,9 +57,9 @@ border-right: 0.2em solid;
 transform: rotate(-135deg);
 }
 
-&:active { 
-    transform: scale(0.95); 
-} 
+&:active {
+    transform: scale(0.95);
+}
 
 &:hover {
     background: #F4F4F4;
@@ -93,9 +93,9 @@ border-right: 0.2em solid;
 transform: rotate(45deg);
 }
 
-&:active { 
-    transform: scale(0.95); 
-} 
+&:active {
+    transform: scale(0.95);
+}
 
 &:hover {
     background: #F4F4F4;
@@ -120,9 +120,9 @@ filter: brightness(90%);
 transition: .2s;
 }
 
-&:active { 
-    transform: scale(0.95); 
-} 
+&:active {
+    transform: scale(0.95);
+}
 
 `;
 
@@ -169,10 +169,10 @@ function Modal({
 }
 
 Modal.propTypes = {
-  imageData: PropTypes.isRequired,
+  imageData: PropTypes.shape().isRequired,
   viewable: PropTypes.bool.isRequired,
   setViewable: PropTypes.func.isRequired,
   current: PropTypes.number.isRequired,
-  setCurrent: PropTypes.isRequired,
+  setCurrent: PropTypes.func.isRequired,
 };
 export default Modal;
