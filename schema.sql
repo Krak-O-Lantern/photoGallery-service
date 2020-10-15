@@ -9,7 +9,7 @@ CREATE DATABASE photoGallery;
 -- //DROP TABLE IF EXISTS messages;
 
 CREATE TABLE IF NOT EXISTS descriptions (
-  des_id INTEGER PRIMARY KEY,
+  des_id INTEGER,
   description1 VARCHAR(2000),
   description2 VARCHAR(2000),
   description3 VARCHAR(2000),
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS descriptions (
 );
 
 CREATE TABLE IF NOT EXISTS images (
-  img_id INTEGER PRIMARY KEY,
+  img_id INTEGER,
   image1 VARCHAR(240),
   image2 VARCHAR(240),
   image3 VARCHAR(240),
@@ -54,7 +54,11 @@ CREATE TABLE IF NOT EXISTS images (
   image18 VARCHAR(240),
   image19 VARCHAR(240),
   image20 VARCHAR(240),
-  des_id INTEGER REFERENCES descriptions(des_id)
+  des_id INTEGER
 );
 
+-- The below were used when I seeded the databse the first time. I kept them inc ase I have some bugs since the above is untested as of 10/15/2020
+-- des_id INTEGER REFERENCES descriptions(des_id)
+-- img_id INTEGER PRIMARY KEY,
+-- des_id INTEGER PRIMARY KEY,
 
