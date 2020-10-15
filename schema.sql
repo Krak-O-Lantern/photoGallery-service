@@ -7,7 +7,6 @@ CREATE DATABASE photoGallery;
 -- USE photoGallery;
 
 -- //DROP TABLE IF EXISTS messages;
-
 CREATE TABLE IF NOT EXISTS descriptions (
   des_id INTEGER,
   description1 VARCHAR(2000),

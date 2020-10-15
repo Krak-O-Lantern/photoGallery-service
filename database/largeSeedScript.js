@@ -1,3 +1,5 @@
+/* eslint-disable no-await-in-loop */
+/* eslint-disable no-console */
 const fs = require('fs');
 const faker = require('faker');
 const { argv } = require('yargs');
@@ -79,8 +81,7 @@ const startWriting = (writeStream, data) => (
   new Promise((resolve) => {
     if (!writeStream.write(data)) {
       writeStream.once('drain', resolve);
-    }
-    else {
+    } else {
       resolve();
     }
   }));
@@ -89,7 +90,7 @@ const startWriting = (writeStream, data) => (
 const imgTag = [];
 const desTag = [];
 
-for (let i = 1; i <= 20; i++) {
+for (let i = 1; i <= 20; i += 1) {
   imgTag.push(`image${i}`);
   desTag.push(`description${i}`);
 }
