@@ -1,13 +1,7 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.0.1
-jobs:
-  build:
-    docker:
-      - image: circleci/node:10.15.3
-      - image: circleci/mongo:4.4.0-ram
-    steps:
-      - checkout
-      - run: npm install
-      - run: npm run db:setup
-      - run: npm test
+  node: circleci/node@3.0.0
+workflows:
+  node-tests:
+    jobs:
+      - node/test
