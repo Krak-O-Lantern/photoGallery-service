@@ -9,6 +9,7 @@ const MaxImgCount = 1000;
 const lines = argv.lines || 10;
 const filename1 = argv.output || 'csv/img.csv';
 const filename2 = argv.output || 'csv/des.csv';
+const filename3 = argv.output || 'json/data.jsonl';
 
 const randomImg = () => {
   let num = Math.ceil(Math.random() * MaxImgCount).toString();
@@ -18,7 +19,7 @@ const randomImg = () => {
   return num;
 };
 
-const dataGenerator = (entry, field) => {
+const dataGeneratorCSV = (entry, field) => {
   const image = {
     listing_id: entry,
   };
@@ -46,36 +47,24 @@ const dataGenerator = (entry, field) => {
   return `${entry},${image[field]}\n`;
 };
 
-// const wrtieToCSV = () => dataGenerator(Entries);
+const dataGeneratorJSONL = (entry) => {
+  const image = {
+    listing_id: entry,
+    images: [],
+    descriptions: [],
+  };
+  for (let j = 0; j < 20; j += 1) {
+    const description = faker.lorem.sentence();
+    const img = randomImg();
+    image.images.push(`https://fec-pictures.s3-us-west-2.amazonaws.com/${img}.jpg`);
+    image.descriptions.push(description);
+  }
+  if (entry % 100000 === 0) {
+    console.log(`${Math.round((((entry / lines)) * 100))}% of data.jsonl`);
+  }
 
-// wrtieToCSV();
-
-// const startWriting = (writeStream, encoding, type, data) => {
-//   let i = lines;
-//   let canWrite = true;
-//   async function writing() {
-//     do {
-//       i -= 1;
-//       const post = dataGenerator(i, type);
-//       // check if i === 0 so we would write and call `done`
-//       if (i === 0) {
-//         // we are done so fire callback
-//         writeStream.write(post, encoding, done);
-//       } else {
-//         // we are not done so don't fire callback
-//         canWrite = writeStream.write(post, encoding);
-//       }
-//       // else call write and continue looping
-//     } while (i > 0 && canWrite);
-//     if (i > 0) {
-//       // our buffer for stream filled and need to wait for drain
-//       // Write some more once it drains.
-//       // console.log('About to drain');
-//       writeStream.once('drain', writing);
-//     }
-//   }
-//   writing();
-// };
+  return `${JSON.stringify(image)}\n`;
+};
 
 const startWriting = (writeStream, data) => (
   new Promise((resolve) => {
@@ -89,7 +78,7 @@ const startWriting = (writeStream, data) => (
 // write our `header` line before we invoke the loop
 const imgTag = [];
 const desTag = [];
-
+// inits array to allow proper namings of columns
 for (let i = 1; i <= 20; i += 1) {
   imgTag.push(`image${i}`);
   desTag.push(`description${i}`);
@@ -102,7 +91,7 @@ const runDes = async () => {
   let current = 0;
   while (current < lines) {
     // invoke startWriting and pass callback
-    await startWriting(stream2, dataGenerator((current += 1), 'des'));
+    await startWriting(stream2, dataGeneratorCSV((current += 1), 'des'));
   }
   stream2.end();
   console.log('des.csv file done');
@@ -115,18 +104,24 @@ const runImg = async () => {
   let current = 0;
   while (current < lines) {
     // invoke startWriting and pass callback
-    await startWriting(stream1, dataGenerator((current += 1), 'img'));
+    await startWriting(stream1, dataGeneratorCSV((current += 1), 'img'));
   }
   stream1.end();
   console.log('img.csv file done');
   setTimeout(() => (runDes()), 5000);
 };
 
-// stream2.write(`id,${desTag}\n`, 'utf-8');
-// // invoke startWriting and pass callback
-// startWriting(stream2, 'utf-8', 'des', () => {
-//   stream2.end();
-// });
+const runJSONL = async () => {
+  const stream3 = fs.createWriteStream(filename3);
 
-// console.log('des.csv file done');
-runImg();
+  let current = 0;
+  while (current < lines) {
+    // invoke startWriting and pass callback
+    await startWriting(stream3, dataGeneratorJSONL((current += 1)));
+  }
+  stream3.end();
+  console.log('data.jsonl file done');
+};
+
+// runImg();
+runJSONL();

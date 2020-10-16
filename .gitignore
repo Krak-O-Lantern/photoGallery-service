@@ -5,6 +5,9 @@ node_modules/
 # dotenv environment variables file
 .env
 csv/
+json/
 client/dist/bundle.js
+lazy.sql
+Release.key
 
 coverage
