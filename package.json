@@ -8,7 +8,8 @@
     "node": ">=6.13.0"
   },
   "scripts": {
-    "start": "node database/seed.js && node server/index.js",
+    "startAndSeed": "node database/seed.js && node server/index.js",
+    "start": "node server/index.js",
     "build": "webpack -p",
     "db:setup": "node database/seed.js",
     "test": "jest --coverage --colors",
