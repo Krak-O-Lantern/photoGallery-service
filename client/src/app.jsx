@@ -21,7 +21,7 @@ function App() {
     // this needs to be changede to look at the window.something
     // also to use/test use this in url // http://localhost:3000/?id=1
     // ? escapes? the get sending process? Maybe?
-    const lessRandInt = `${window.location.href.match(/id\s*=\s*(.*)/)[1]}`;
+    const lessRandInt = window.location.href.match(/id\s*=\s*(.*)/)[1];
     getImages(lessRandInt || 1);
   }, []);
 

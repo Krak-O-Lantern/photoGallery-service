@@ -18,21 +18,21 @@ for (let i = 1; i < 20; i++) {
   imgObj.descriptions.push('"The Greekest Was Here"');
 }
 
-describe('App component', () => {
-  const wrapper = shallow(<App />);
-  it('should render App component', () => {
-    expect(wrapper.exists()).toBe(true);
-  });
+// describe('App component', () => {
+//   const wrapper = shallow(<App />);
+//   it('should render App component', () => {
+//     expect(wrapper.exists()).toBe(true);
+//   });
 
-  describe('A suite example using Snapshot', () => {
-    it('renders App component correctly', () => {
-      const tree = renderer
-        .create(<App />)
-        .toJSON();
-      expect(tree).toMatchSnapshot();
-    });
-  });
-});
+//   describe('A suite example using Snapshot', () => {
+//     it('renders App component correctly', () => {
+//       const tree = renderer
+//         .create(<App />)
+//         .toJSON();
+//       expect(tree).toMatchSnapshot();
+//     });
+//   });
+// });
 
 describe('A suite of tests for Photos Component', () => {
   it('renders correctly Photos Component', () => {

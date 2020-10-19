@@ -12,7 +12,7 @@
     "start": "node server/index.js",
     "build": "webpack -p",
     "db:setup": "node database/seed.js",
-    "test": "jest --coverage --colors",
+    "test": "jest --coverage --colors --env=jsdom",
     "test:watch": "jest --watch"
   },
   "dependencies": {
