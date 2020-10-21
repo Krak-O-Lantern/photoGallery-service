@@ -13,7 +13,7 @@ const filename3 = argv.output || 'json/data.jsonl';
 
 const randomImg = () => {
   let num = Math.ceil(Math.random() * MaxImgCount).toString();
-  while (num.length !== 4) {
+  while (num.length !== 5) {
     num = `0${num}`;
   }
   return num;

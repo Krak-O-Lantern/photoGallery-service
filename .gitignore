@@ -6,6 +6,7 @@ node_modules/
 .env
 csv/
 json/
+config.js
 client/dist/bundle.js
 lazy.sql
 Release.key
