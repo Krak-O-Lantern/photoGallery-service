@@ -20,7 +20,7 @@ function App() {
   useEffect(() => {
     // this needs to be changede to look at the window.something
     // also to use/test use this in url // http://localhost:3000/?id=1
-    const lessRandInt = window.location.href.match(/id\s*=\s*(.*)/);
+    const lessRandInt = window.location.href.match(/\listings\/(.+)/);
     lessRandInt ? getImages(lessRandInt[1]) : getImages(1);
   }, []);
 

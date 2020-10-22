@@ -3,10 +3,10 @@ import { sleep } from 'k6';
 
 export const options = {
   vus: 1000,
-  duration: '30s',
+  duration: '60s',
 };
 
 export default function () {
   http.get('http://localhost:3000/');
-  sleep(.1);
+  sleep(1);
 }

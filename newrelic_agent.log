@@ -38,3 +38,193 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":4077,"time":"2020-10-21T23:29:06.005Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BaVH_xrNguQ-ACyK2Sbx3KpfkMS0AAgBAAAnIQEAAA_tAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
 {"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":4077,"time":"2020-10-21T23:29:06.005Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
 {"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":4077,"time":"2020-10-21T23:29:06.005Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:14.787Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:14.903Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:15.206Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:15.206Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:16.945Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:16.945Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BYzfPQzsePauACyK2Sbx3KpfkaYsAAgBAAAnIQEAAAH5AgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:16.946Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:16.946Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:16.948Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":505,"time":"2020-10-22T15:31:17.949Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:23.818Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:23.883Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:24.180Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:24.180Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:25.760Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:25.761Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BUTMDkHPqmOEACyK2Sbx3KpfkbXgAAgBAAAnIQEAAAfwAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:25.761Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:25.762Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:25.763Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2032,"time":"2020-10-22T16:38:26.764Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:26.841Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:26.906Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:27.203Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:27.203Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:28.757Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:28.757Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BQTDHiDTWGI8ACyK2Sbx3KpfkbYcAAgBAAAnIQEAAAgnAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:28.757Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:28.758Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:28.760Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2087,"time":"2020-10-22T16:39:29.762Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:05.178Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:05.243Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:05.541Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:05.541Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:07.031Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:07.031Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID Bbc71ujQXSbuACyK2Sbx3KpfkbZYAAgBAAAnIQEAAAmrAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:07.031Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:07.032Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:07.035Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2475,"time":"2020-10-22T16:40:08.034Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:23.132Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:23.198Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:23.494Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:23.494Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:24.983Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:24.983Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BWPdfWTrWNssACyK2Sbx3KpfkbZYAAgBAAAnIQEAAAngAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:24.983Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:24.984Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:24.985Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2528,"time":"2020-10-22T16:40:25.987Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:10.101Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:10.167Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:10.464Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:10.464Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:12.051Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:12.051Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BR84kFiqQWDZACyK2Sbx3KpfkbcMAAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:12.051Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:12.052Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:12.053Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:43:13.055Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":50,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:13.310Z","msg":"Agent endpoint metric_data returned 409 status. Restarting.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:13.310Z","msg":"Restarting collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:13.311Z","msg":"Shutting down collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:13.467Z","msg":"Agent state changed from started to disconnected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:13.468Z","msg":"Disconnected from New Relic; clearing run ID BR84kFiqQWDZACyK2Sbx3KpfkbcMAAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:13.468Z","msg":"Agent state changed from disconnected to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:14.946Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:14.946Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BcRu9ifXBIgkACyK2Sbx3Kpfkbg4AAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:14.946Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:48:14.946Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":50,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:15.114Z","msg":"Agent endpoint metric_data returned 409 status. Restarting.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:15.114Z","msg":"Restarting collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:15.114Z","msg":"Shutting down collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:15.264Z","msg":"Agent state changed from connected to disconnected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:15.264Z","msg":"Disconnected from New Relic; clearing run ID BcRu9ifXBIgkACyK2Sbx3Kpfkbg4AAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:15.264Z","msg":"Agent state changed from disconnected to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:16.626Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:16.626Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BTXouKv7t8XJACyK2Sbx3KpfkblkAAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:16.626Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:53:16.626Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":50,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:16.790Z","msg":"Agent endpoint metric_data returned 409 status. Restarting.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:16.791Z","msg":"Restarting collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:16.791Z","msg":"Shutting down collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:16.930Z","msg":"Agent state changed from connected to disconnected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:16.930Z","msg":"Disconnected from New Relic; clearing run ID BTXouKv7t8XJACyK2Sbx3KpfkblkAAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:16.930Z","msg":"Agent state changed from disconnected to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:18.330Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:18.331Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BTKy65q3n68eACyK2Sbx3KpfkbqQAAgBAAAnIQEAAApxAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:18.331Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2673,"time":"2020-10-22T16:58:18.331Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:10.740Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:10.805Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:11.100Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:11.101Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:12.678Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:12.678Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BSH4w4yvqKRcACyK2Sbx3Kpfkb2cAAgBAAAnIQEAAAuSAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:12.678Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:12.679Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:12.680Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":2962,"time":"2020-10-22T17:11:13.681Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:50.970Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:51.035Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:51.330Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:51.331Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:52.810Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:52.810Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BRnXGC-0VpLHACyK2Sbx3Kpfkb2cAAgBAAAnIQEAAAvHAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:52.810Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:52.811Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:52.812Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3015,"time":"2020-10-22T17:11:53.813Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:24.042Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:24.110Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:24.412Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:24.412Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:25.980Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:25.980Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BXujGvKrDghsACyK2Sbx3Kpfkb5QAAgBAAAnIQEAAAwWAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:25.980Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:25.981Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:25.983Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3094,"time":"2020-10-22T17:14:26.984Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:43.423Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:43.488Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:43.786Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:43.787Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:45.360Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:45.360Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BXLFxPaPFBWHACyK2Sbx3Kpfkb6MAAgBAAAnIQEAAAxPAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:45.360Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:45.361Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:45.363Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:15:46.364Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":50,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:46.656Z","msg":"Agent endpoint metric_data returned 409 status. Restarting.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:46.656Z","msg":"Restarting collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:46.656Z","msg":"Shutting down collector.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:46.802Z","msg":"Agent state changed from started to disconnected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:46.802Z","msg":"Disconnected from New Relic; clearing run ID BXLFxPaPFBWHACyK2Sbx3Kpfkb6MAAgBAAAnIQEAAAxPAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:46.802Z","msg":"Agent state changed from disconnected to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:48.184Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:48.184Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BSAVgYyl5SuvACyK2Sbx3Kpfkb98AAgBAAAnIQEAAAxPAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:48.185Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3151,"time":"2020-10-22T17:19:48.185Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:57.382Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:57.447Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:57.744Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:57.744Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:59.348Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:59.348Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BcIfHZSjN-nDACyK2Sbx3Kpfkcd0AAgBAAAnIQEAAA2eAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:59.348Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:59.349Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:53:59.351Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3486,"time":"2020-10-22T17:54:00.352Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:55.126Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:55.191Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:55.488Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:55.488Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:57.088Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:57.088Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BTlexaCDBC4rACyK2Sbx3KpfkcgoAAgBAAAnIQEAAA3tAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:57.088Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:57.089Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:57.091Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3565,"time":"2020-10-22T17:56:58.091Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:17.829Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:17.894Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:18.194Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:18.194Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:19.769Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:19.769Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BV3RTLyYwNlyACyK2Sbx3KpfkcigAAgBAAAnIQEAAA4yAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:19.769Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:19.770Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:19.771Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3634,"time":"2020-10-22T17:58:20.772Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:50.093Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:50.157Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:50.453Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:50.453Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:52.016Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:52.016Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BQkfQ4OSbPPsACyK2Sbx3KpfkcjcAAgBAAAnIQEAAA6vAgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:52.016Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:52.017Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:52.019Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3759,"time":"2020-10-22T17:59:53.020Z","msg":"Starting initial 1000ms harvest."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:57.751Z","msg":"Using New Relic for Node.js. Agent version: 6.13.2; Node version: v10.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:57.816Z","msg":"Agent state changed from stopped to starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:58.108Z","msg":"Starting New Relic for Node.js connection process."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:58.108Z","msg":"Agent state changed from starting to connecting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:59.729Z","msg":"Agent state changed from connecting to connected."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:59.729Z","msg":"Connected to collector-006.newrelic.com:443 with agent run ID BW6ro8atjiGZACyK2Sbx3KpfkcusAAgBAAAnIQEAAA94AgQm8dyoAwAGNi4xMy4yAARENTAzAAhjbG91ZGJuYg.","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:59.729Z","msg":"Reporting to: https://rpm.newrelic.com/accounts/2919129/applications/653384872","component":"collector_api"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:59.730Z","msg":"Valid event_harvest_config received. Updating harvest cycles. {\"report_period_ms\":5000,\"harvest_limits\":{\"error_event_data\":8,\"analytic_event_data\":833,\"custom_event_data\":83}}"}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:11:59.732Z","msg":"Agent state changed from connected to started."}
+{"v":0,"level":30,"name":"newrelic","hostname":"D503","pid":3960,"time":"2020-10-22T18:12:00.734Z","msg":"Starting initial 1000ms harvest."}
