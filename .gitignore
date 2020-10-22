@@ -10,5 +10,5 @@ config.js
 client/dist/bundle.js
 lazy.sql
 Release.key
-
+newrelic.js
 coverage

@@ -26,6 +26,7 @@
     "express": "^4.17.1",
     "faker": "^5.1.0",
     "mongoose": "^5.10.6",
+    "newrelic": "^6.13.2",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
