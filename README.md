@@ -1,5 +1,3 @@
-[![Krak-O-Lantern](https://circleci.com/gh/Krak-O-Lantern/photoGallery-service.svg?style=shield)](https://circleci.com/gh/Krak-O-Lantern/photoGallery-service)
-
 ## Recreational Engineering Interface (REI ) Review Service [![Krak-O-Lantern](https://circleci.com/gh/Krak-O-Lantern/photoGallery-service.svg?style=shield)](https://circleci.com/gh/Krak-O-Lantern/photoGallery-service)
 
 ## Table of contents
