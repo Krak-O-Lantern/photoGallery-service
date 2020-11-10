@@ -12,3 +12,4 @@ lazy.sql
 Release.key
 newrelic.js
 coverage
+k6_script/
